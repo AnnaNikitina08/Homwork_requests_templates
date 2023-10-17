@@ -26,4 +26,3 @@ def time_view(request):
 
 def workdir_view(request):
     return HttpResponse(' '.join(listdir('.')))
-
